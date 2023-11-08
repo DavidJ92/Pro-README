@@ -1,13 +1,13 @@
 # Pro-README
 
 ## Description
-Pro-README is a command-line application that streamlines the process of creating professional README files for software projects. By asking a series of questions, ProREADME generates a comprehensive README.md file with sections such as Description, Installation, Usage, License, and more. Save time and ensure consistency in your project documentation with Pro-README.
+READMEPro is a command-line application that streamlines the process of creating professional README files for software projects. By asking a series of questions, ProREADME generates a comprehensive README.md file with sections such as Description, Installation, Usage, License, and more. Save time and ensure consistency in your project documentation with READMEPro.
 
 ## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Screenshots](#screenshots)
+- [Demo](#demo)
 - [License](#license)
 - [Tests](#tests)
 - [Questions](#questions)
@@ -30,15 +30,17 @@ To use READMEPro:
 4. Answer the prompts to provide information about your project.
 5. Once all prompts are answered, the application will generate a `README.md` file in the same directory.
 
-## Screenshots
+## Demo
 
-![Screenshot 1](./path/to/screenshot1.png)
+![Screenshot 1](/Develop/Gif/ezgif.com-video-to-gif.gif)
 
 
 
 ## License
 
-This project is licensed under the [MIT License](/LICENSE) - see the [LICENSE](LICENSE) file for details.
+![License](https://img.shields.io/badge/license-MIT-brightgreen)
+
+This project is licensed under the [MIT License](/LICENSE) license.
 
 
 ## Tests
