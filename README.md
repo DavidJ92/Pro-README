@@ -11,6 +11,7 @@ READMEPro is a command-line application that streamlines the process of creating
 - [License](#license)
 - [Tests](#tests)
 - [Questions](#questions)
+- [Credits](#credits)
 
 ## Installation
 
@@ -26,6 +27,7 @@ To use READMEPro:
 
 1. Open your terminal or command prompt.
 2. Navigate to the `READMEPro` directory.
+3. Open `index.js` file in the integrated terminal.
 3. Run `node index.js` to start the application.
 4. Answer the prompts to provide information about your project.
 5. Once all prompts are answered, the application will generate a `README.md` file in the same directory.
@@ -57,5 +59,9 @@ npm test
 For any questions or inquiries, please contact:
 
 - GitHub: [DavidJ92](https://github.com/DavidJ92)
+
+## Credits
+
+You can find the source for the READMEPro format here: [Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
 
 

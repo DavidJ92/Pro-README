@@ -1,7 +1,9 @@
+// Import necessary modules
 const inquirer = require("inquirer");
 const generateMarkdown = require("./generateMarkdown");
 const fs = require("fs");
 
+// Define an array of questions to be asked to the user
 const questions = [
   {
     type: "input",
@@ -66,20 +68,31 @@ const questions = [
   },
 ];
 
+// Initialize the process
 function init() {
+  // Prompt the user with the defined questions
   inquirer.prompt(questions).then((data) => {
+    // Generate Markdown content using user responses
     const markdownContent = generateMarkdown(data);
+    
+    // Write the generated Markdown content to a file named "README.md"
     writeToFile("README.md", markdownContent);
+    
+    // Log a success message to the console
     console.log("README.md successfully generated!");
   });
 }
 
+// Function to write content to a file
 function writeToFile(fileName, data) {
+  // Use fs.writeFile to write content to the specified file
   fs.writeFile(fileName, data, (err) => {
+    // If an error occurs during writing, log the error to the console
     if (err) {
       console.error(err);
     }
   });
 }
 
+// Start the initialization process
 init();
